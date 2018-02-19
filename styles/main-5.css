@@ -1,0 +1,93 @@
+* { box-sizing: border-box;}  /* This wildcard applies to all elements ensuring a box layout model */
+
+body {
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  /* Declare the base font-family - from google font api or other */
+}
+
+header, nav, main, footer { /* the comma means apply the following CSS declarations to all of the listed elements */
+  /* Declare the maximum width and other main element rules to limit the stretch on wide views */
+}
+
+header {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+}
+header h1 {
+    padding-top:20px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color:cornflowerblue;
+}
+header img {
+    float: left;
+    margin-bottom: 15px;
+    margin-left:16px;
+}
+header .subheading {} 
+
+
+nav {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+}
+nav button {
+    float:right;
+}
+nav ul {display: none;}
+nav ul li {}
+nav ul li a {}
+nav ul li.active a {}
+nav ul li a:hover {}
+
+section.forecast {
+    display:none;
+}
+
+main {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+}
+main h2 {
+    color: cornflowerblue;
+    border: solid;
+    border-color: black;
+    padding: 10px;
+}
+main figure.franklin {
+    width: 50%;
+    border: 1px red dashed;
+}
+
+section {
+    font-size: 20px;
+}
+
+article {
+    border-style: solid;
+}
+
+p.town-article img {  /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
+  width: ???; /* fill the page in the small/phone view */
+  margin: ???;
+}
+
+footer {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+}
+footer aside {}
+footer>p {
+    background-color: cornflowerblue;
+} /* This structure refers to p elements that are direct children of the footer element */
+
+/* Other Class Selectors */
