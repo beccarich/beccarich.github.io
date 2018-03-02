@@ -1,0 +1,58 @@
+@media only screen and (min-width: 37.5em) {
+  /* Only CSS rules that need to be changed to meet the layout needs from small to medium go in here */
+      header, main, footer { 
+    background-color: lightgray;
+    max-width: 900px;
+}
+    nav{
+        display: inline-grid;
+        justify-content: center;
+        align-items: center;
+        max-width: 900px;
+        
+    
+    }
+    
+    nav button{
+        display:none;
+    }
+    
+    nav ul {
+    }
+    
+    nav ul.hide {
+    }
+    
+    nav ul li{
+    
+    }
+    
+    .hide {
+        max-width: 900px;
+        display: inline-grid;
+        grid-template-columns: 105px 105px 105px 105px 115px 105px;
+        
+    }
+    section.forecast {
+        display: inline-grid;
+        align-content: center;
+    }
+    
+   
+   
+    article p.town-aticle img{
+        width: 62.666%;
+        float: right;
+    }
+    
+    .container {
+    display: inline-grid;
+    grid-template-columns: 300px 300px;
+    grid-row-gap: 50px;
+    padding-top: 50px;
+}
+    .description {
+    max-width: 400px;
+    font-size: 12px;
+}
+    

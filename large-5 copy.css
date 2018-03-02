@@ -1,0 +1,29 @@
+@media only screen and (min-width: 64em) {
+  /* Only CSS rules that need to be changed to meet the layout needs from medium to large/wide go in here */
+      .container {
+    display: inline-grid;
+    grid-template-columns: 200px 2000px 200px;
+    grid-row-gap: 50px;
+    padding-top: 50px;
+          
+}
+    .description {
+    max-width: 400px;
+    font-size: 12px;
+}
+
+    nav ul{
+        background-color: cornflowerblue;
+        max-width: 1200px;
+    }
+    
+   .container {
+    display: inline-grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-row-gap: 50px;
+    padding-top: 50px;
+}
+    .description {
+    max-width: 400px;
+    font-size: 12px;
+}
