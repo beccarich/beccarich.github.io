@@ -1,0 +1,158 @@
+* { box-sizing: border-box;}  /* This wildcard applies to all elements ensuring a box layout model */
+
+body {
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  /* Declare the base font-family - from google font api or other */
+}
+
+header, nav, main, footer { 
+    max-width: 300px;
+}
+
+header, main, footer {
+    background-color: darkgray
+}
+
+header {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    
+}
+header h1 {
+    padding-top:20px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 50px;
+    color:cornflowerblue;
+}
+header img {
+    padding-top; 25px;
+    margin-top: 10px;
+    align-content: center;
+    align-items: center;
+
+}
+header .subheading {
+    padding-bottom: 15px;
+    color: black;
+} 
+
+
+nav {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    background-color: cornflowerblue;
+}
+nav button {
+    display: flex;
+    align-items: center;
+    background: transparent;
+    
+}
+nav ul {display: none;}
+nav ul li {}
+nav ul li a {}
+nav ul li.active a {}
+nav ul li a:hover {}
+
+section.forecast {
+    display:none;
+}
+
+main {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+}
+main h2 {
+    color: cornflowerblue;
+    border: solid;
+    border-color: black;
+    padding: 10px;
+    margin: 10px;
+}
+.franklin {
+    max-width: 100%;
+    max-height: auto;
+    align-content: center;
+    padding: 10px;
+    
+}
+
+section {
+    font-size: 20px;
+}
+
+article {
+    border-style: solid;
+    padding: 10px;
+    margin: 10px;
+    align-content: center;
+}
+
+p.town-article img {  /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
+  width: 75%; /* fill the page in the small/phone view */
+}
+
+footer {
+    max-width: 600px;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    margin: auto;
+}
+footer aside {}
+footer>p {
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: cornflowerblue;
+}
+
+.center {
+    padding: 20px;
+}
+
+form {
+    align-items: center;
+    padding: 15px;
+    width: 400px;
+    border: 3px solid;
+    border-color: cornflowerblue;
+    margin: auto;
+}
+
+.submit:hover {
+    background-color: cornflowerblue;
+}
+
+.box {
+    width: 300px;
+    height: auto;
+    
+}
+
+
+.gallery {
+    padding: 20px;
+}
+
+figcaption {
+    max-width: 300px;
+    margin: auto;
+}
+
+.images {
+    display: grid;
+    grid-template-columns: 300px 300px;
+    padding: 25px;
+    margin: auto;
+    
+    
+}
