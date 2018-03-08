@@ -65,7 +65,7 @@ section.forecast {
 }
 
 main {
-    max-width: 600px;
+    /* max-width: 600px;*/
     margin: auto;
     text-align: center;
     align-items: center;
@@ -139,20 +139,25 @@ form {
 }
 
 
-.gallery {
-    padding: 20px;
-}
 
 figcaption {
     max-width: 300px;
     margin: auto;
 }
 
-.images {
+.gallery {
     display: grid;
     grid-template-columns: 300px;
     padding: 25px;
     margin: auto;
-    
-    
+       
 }
+
+.gallery figure {
+    width: 100%;
+}
+
+.gallery figure img {
+    width: 100%;
+}
+

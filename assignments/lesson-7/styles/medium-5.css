@@ -39,8 +39,8 @@ nav{
   article p.town-article img { width: 62.666%;  }  /* responsive images */
 
 }
-.images {
-    display: inline-grid;
+.gallery {
+    display: grid;
     grid-template-columns: 300px 300px;
     padding: 25px;
     margin: auto;
