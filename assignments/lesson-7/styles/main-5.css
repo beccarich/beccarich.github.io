@@ -54,7 +54,7 @@ nav button {
     background: transparent;
     
 }
-nav ul {}
+nav ul .hide {display: none;}
 nav ul li {}
 nav ul li a {}
 nav ul li.active a {}
