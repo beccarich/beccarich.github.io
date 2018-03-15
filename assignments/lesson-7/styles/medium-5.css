@@ -9,7 +9,7 @@ nav{
     }
     nav button {display:none;}
 
-    nav ul {display: inline-grid;
+    nav ul.hide {display: inline-grid;
             grid-template-columns: 125px 125px 125px 125px 125px 125px;
             padding-top: 10px;
             padding-bottom: 10px;
