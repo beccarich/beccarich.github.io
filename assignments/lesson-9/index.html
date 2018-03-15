@@ -41,21 +41,27 @@
     	<li><a href="stormcenter.html">Storm Center</a></li>
     	<li><a href="gallery-7.html">Gallery</a></li>
     </ul>		
-  </nav>
-<main>  
-    <h1>THE GALLERY</h1>
-    <div class="gallery">
-        <figure><img class="images" src="images/images.jpg" alt="snowfall" ><figcaption>Nullam tristique massa magna,sed rutrum sapien consectetur et.</figcaption></figure>
-        <figure><img class="images" src="images/images-3.jpg" alt="sun"><figcaption>Nullam tristique massa magna,sed rutrum sapien consectetur et.</figcaption></figure> 
-        <figure><img class="images" src="images/images-2.jpg" alt="rainbow"><figcaption>Nullam tristique massa magna,sed rutrum sapien consectetur et.</figcaption></figure>
-        <figure><img class="images" src="images/images-1.jpg" alt="desert"><figcaption>Nullam tristique massa magna,sed rutrum sapien consectetur et.</figcaption></figure>
-        <figure><img class="images" src="images/images-copy.jpg" alt="cloudy"><figcaption>Nullam tristique massa magna,sed rutrum sapien consectetur et.</figcaption></figure>
-        <figure><img class="images" src="images/images-4.jpg" alt="winter trees"><figcaption>Nullam tristique massa magna,sed rutrum sapien consectetur et.</figcaption>
-        </figure>
-    </div>
-</main>  
+    </nav>
+
+      <header>
+
+      </header>
+
+      <section>
+
+      </section>
+
+    <script>
+        var header = document.querySelector('header');
+        var section = document.querySelector('section');
+        var requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
+        var request = new XMLHttpRequest();
+        request.open('GET', requestURL);
+        request.responseType = 'json';
+        request.send();
+    </script>
     
-    <footer>
+  <footer>
     <aside>
         <br>
         <br>
@@ -68,10 +74,12 @@
         <br>
         <br>
     </aside>
-    <p class="footer-bar">| &copy;2020 All Rights Reserved | On the Horizon | <br> <span id="currentdate"></span></p>
+    <p class="footer-bar">| &copy;2020 All Rights Reserved | On the Horizon |<span id="currentdate"></span></p>
   </footer>
 
   <script src="scripts/hamburger.js"></script>
   <script src="scripts/currentdate.js"></script>
+  <script src="scripts/windchill.js"></script>
     </body>
 </html>
+
