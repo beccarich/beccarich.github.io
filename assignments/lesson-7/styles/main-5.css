@@ -65,7 +65,7 @@ section.forecast {
 }
 
 main {
-    /* max-width: 600px;*/
+    max-width: 600px;
     margin: auto;
     text-align: center;
     align-items: center;
@@ -145,16 +145,14 @@ figcaption {
     margin: auto;
 }
 
-.gallery {
+
+div.gallery {
     display: grid;
     grid-template-columns: 300px;
+    column-gap: 10px;
     padding: 25px;
     margin: auto;
-       
-}
-
-.gallery figure {
-    width: 100%;
+    align-content: center;
 }
 
 .gallery figure img {

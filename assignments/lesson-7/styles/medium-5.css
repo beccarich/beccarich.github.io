@@ -39,7 +39,7 @@ nav{
   article p.town-article img { width: 62.666%;  }  /* responsive images */
 
 }
-.gallery {
+div.gallery {
     display: grid;
     grid-template-columns: 300px 300px;
     padding: 25px;
