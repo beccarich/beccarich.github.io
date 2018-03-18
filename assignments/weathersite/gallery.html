@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gallery</title>
+  <meta name="author" content="Rebecca Richardson">
+  <meta name="description" content="Weather Forecasts">
+  <!-- external style references in the proper cascading order -->    
+  <link href="https://fonts.googleapis.com/css?family=#" rel="stylesheet">  <!-- Google API font reference -->
+  <link href="styles/normalize.css" rel="stylesheet"> <!-- normalize useragent/browser defaults -->
+  <link href="styles/main.css" rel="stylesheet">    <!-- default styles - small/phone views -->
+  <link href="styles/medium.css" rel="stylesheet">  <!-- medium/tablet views -->
+  <link href="styles/large.css" rel="stylesheet">   <!-- large/wide/desktop views --> 
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+<style>
+    li {
+        display: inline;
+    }
+</style>
+
+</head>
+<body>
+  <header>
+    <figure class="logo"> 
+        <img src="images/sunlogo.png" alt="The site logo" width="90px" height="90px" >
+    </figure>
+    <h1>On the Horizon</h1>
+    <div class="subheading">The weather of the future.</div>
+  </header>
+
+  <!-- site navigation use placeholder references -->
+  <nav class="clearfix">
+    <button onclick="toggleNavMenu()">&#9776;</button>
+    <ul id="navMenu" class="hide">
+      <li><a href="index.html">Home</a></li>
+    	<li class="active"><a href="franklin.html">Franklin</a></li>
+    	<li><a href="greenville.html">Greenville</a></li>
+    	<li><a href="springfield.html">Springfield</a></li>
+    	<li><a href="stormcenter.html">Storm Center</a></li>
+    	<li><a href="gallery.html">Gallery</a></li>
+    </ul>		
+  </nav>
+<main>  
+    <h1>THE GALLERY</h1>
+    <div class="gallery">
+        <figure><img class="images" src="images/images.jpg" alt="snowfall" ><figcaption>Nullam tristique massa magna,sed rutrum sapien consectetur et.</figcaption></figure>
+        <figure><img class="images" src="images/images-3.jpg" alt="sun"><figcaption>Nullam tristique massa magna,sed rutrum sapien consectetur et.</figcaption></figure> 
+        <figure><img class="images" src="images/images-2.jpg" alt="rainbow"><figcaption>Nullam tristique massa magna,sed rutrum sapien consectetur et.</figcaption></figure>
+        <figure><img class="images" src="images/images-1.jpg" alt="desert"><figcaption>Nullam tristique massa magna,sed rutrum sapien consectetur et.</figcaption></figure>
+        <figure><img class="images" src="images/images-copy.jpg" alt="cloudy"><figcaption>Nullam tristique massa magna,sed rutrum sapien consectetur et.</figcaption></figure>
+        <figure><img class="images" src="images/images-4.jpg" alt="winter trees"><figcaption>Nullam tristique massa magna,sed rutrum sapien consectetur et.</figcaption>
+        </figure>
+    </div>
+</main>  
+    
+    <footer>
+    <aside>
+        <br>
+        <br>
+        <br>
+        The Weather Site<br>
+        123 Main St.<br>
+        Franklin, MU 83454<br>
+        (999)999-9999<br>
+        contact@theurl.com<br>
+        <br>
+        <br>
+    </aside>
+    <p class="footer-bar">| &copy;2020 All Rights Reserved | On the Horizon | <br> <span id="currentdate"></span></p>
+  </footer>
+
+  <script src="scripts/hamburger.js"></script>
+  <script src="scripts/currentdate.js"></script>
+    </body>
+</html>
