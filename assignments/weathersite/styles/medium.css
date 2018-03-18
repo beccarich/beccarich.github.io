@@ -1,0 +1,48 @@
+@media only screen and (min-width: 37.5em) {
+  /* Only CSS rules that need to be changed to meet the layout needs from small to medium go in here */
+
+header, nav, main, footer { 
+    max-width: 900px;
+}
+nav{
+    align-content: center;    
+    }
+    nav button {display:none;}
+
+    nav ul.hide {display: inline-grid;
+            grid-template-columns: 125px 125px 125px 125px 125px 125px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            text-align: center;
+
+    }
+    nav ul li {}
+    nav ul li a {}
+    nav ul li.active a {}
+    nav ul li a:hover {}
+  
+  section.forecast { 
+    display: block;
+    padding-left: 25px;
+    } 
+    
+    .dates {
+        display: inline-grid;
+        grid-template-columns: 75px 75px 75px 75px 75px 75px 75px 75px 75px 75px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: center;
+        margin: auto;
+        align-self: center;
+    }
+  
+  article p.town-article img { width: 62.666%;  }  /* responsive images */
+
+}
+div.gallery {
+    display: grid;
+    grid-template-columns: 300px 300px;
+    padding: 25px;
+    margin: auto;
+    
+}

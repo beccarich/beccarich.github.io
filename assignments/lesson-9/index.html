@@ -70,13 +70,8 @@
 
     function populateHeader(jsonObj) {
       var myH1 = document.createElement('h1');
-      myH1.textContent = jsonObj['name'];
+      myH1.textContent = jsonObj['towns'];
       header.appendChild(myH1);
-
-      var myPara = document.createElement('p');
-      myPara.textContent = 'motto' + jsonObj['motto'] + ' // Formed: ' + jsonObj['yearFounded'];
-      header.appendChild(myPara);
-
     }
 
     function showIndex (jsonObj) {
