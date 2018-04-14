@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home Page</title>
+  <meta name="author" content="Rebecca Richardson">
+  <meta name="description" content="Mountain Spokes">
+  <!-- external style references in the proper cascading order -->    
+  <link href="https://fonts.googleapis.com/css?family=#" rel="stylesheet">  <!-- Google API font reference -->
+  <link href="normalize.css" rel="stylesheet"> <!-- normalize useragent/browser defaults -->
+  <link href="main.css" rel="stylesheet">    <!-- default styles - small/phone views -->
+  <link href="medium.css" rel="stylesheet">  <!-- medium/tablet views -->
+  <link href="large.css" rel="stylesheet">   <!-- large/wide/desktop views --> 
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+</head>
+<body>
+  <header>
+    <figure class="logo"> 
+        <img src="images/mountainspoke.png" alt="The site logo" width="150px" height="90px" >
+    </figure>
+    <h1>Mountain Spokes</h1>
+    <div class="subheading">Owner Operated.</div>
+  </header>
+
+  <!-- site navigation use placeholder references -->
+<nav class="clearfix">
+    <button onclick="toggleNavMenu()">&#9776;</button>
+    <ul id="navMenu" class="hide">
+    	<li class="active"><a href="home.html">Home</a></li>
+    	<li><a href="adventure.html">Adventure Tours</a></li>
+    	<li><a href="event.html">Events</a></li>
+    	<li><a href="sales.html">Sales</a></li>
+    	<li><a href="service.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>		
+</nav>
+    
+<main>
+      <br>
+
+     <figure>
+        <img src="images/trailbike.jpg" alt="biking trail" sizes="80vw">
+    </figure>
+          <h2>MOUNTAIN BIKING</h2>
+          <p>Mountain biking in Montana is unlinke any adventure you've yet experienced. We at Moutain Spokes would love to help enhance your time here in Montana to the fullest. We specialize in bicycles, bicycle parts, bicycle repair, and tours. Our owner-operated company caters to bicycle enthusiasts. We would love to sponsors and organizes tours in the area to serious bicyclists from around the world.</p>
+    <figure>
+        <img src="images/bikerwithsun.jpg" alt="biker with sun" sizes="80vw">
+    </figure>
+    
+    <figure>
+        <img src="images/biker.jpg" alt="biker" sizes="80vw">
+    </figure>
+    
+    <figure>
+        <img src="images/bikersingrass.jpg" alt="biker in grass" sizes="80vw">
+    </figure>
+
+
+      <br>
+</main> 
+    
+  <footer>
+      <aside>
+        <br>
+        <br>
+        <br>
+        Mountain Spokes<br>
+        3950 Valley Commons Drive<br>
+        Bozeman, MT 59718<br>
+        (999)999-9999<br>
+        contact@theurl.com<br>
+        <br>
+        <br>
+    </aside>
+    <p class="footer-bar">| &copy;2020 All Rights Reserved | Mountain Spokes |<span id="currentdate"></span></p>
+  </footer>
+
+  <script src="scripts/hamburger.js"></script>
+  <script src="scripts/currentdate.js"></script>
+  <script src="scripts/windchill.js"></script>
+    </body>
+</html>

@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact Page</title>
+  <meta name="author" content="Rebecca Richardson">
+  <meta name="description" content="Mountain Spokes">
+  <!-- external style references in the proper cascading order -->    
+  <link href="https://fonts.googleapis.com/css?family=#" rel="stylesheet">  <!-- Google API font reference -->
+  <link href="normalize.css" rel="stylesheet"> <!-- normalize useragent/browser defaults -->
+  <link href="main.css" rel="stylesheet">    <!-- default styles - small/phone views -->
+  <link href="medium.css" rel="stylesheet">  <!-- medium/tablet views -->
+  <link href="large.css" rel="stylesheet">   <!-- large/wide/desktop views --> 
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+</head>
+<body>
+  <header>
+    <figure class="logo"> 
+         <img src="images/mountainspoke.png" alt="The site logo" width="150px" height="90px" >
+    </figure>
+    <h1>Mountain Spokes</h1>
+    <div class="subheading">Owner Operated.</div>
+  </header>
+
+  <!-- site navigation use placeholder references -->
+<nav class="clearfix">
+    <button onclick="toggleNavMenu()">&#9776;</button>
+    <ul id="navMenu" class="hide">
+    	<li><a href="home.html">Home</a></li>
+    	<li><a href="adventure.html">Adventure Tours</a></li>
+    	<li><a href="event.html">Events</a></li>
+    	<li><a href="sales.html">Sales</a></li>
+    	<li><a href="service.html">Services</a></li>
+        <li class="active"><a href="contact.html">Contact</a></li>
+    </ul>		
+</nav>
+    
+<main>
+      <br>
+    <h2>Contact Us</h2>
+    <form>
+    Full Name: <input type="text" name="fullfname" pattern="[A-Za-z\s]{5,}" required> <br> 
+        <br>
+    Email: <input type="email" name="email" placeholder="examble@gmail.com" required> <br>
+        <br>
+    Phone Number:  <input type="tel" name="phone" required> <br>
+        <br>
+   Comments/Concerns:<br> <textarea name="into" class="box"></textarea><br>
+        <br>
+    <input type="SUBMIT" class="submit">
+    
+    </form>
+    <p>*We will be in contact with you as soon as possible. Thanks.*</p>
+    
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2787.9316277611015!2d-111.09290618451075!3d45.672272879103986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5345459ab72cb6df%3A0xbb98968f9648ea88!2s3950+Valley+Commons+Dr%2C+Bozeman%2C+MT+59718!5e0!3m2!1sen!2sus!4v1523671608811" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+      <br>
+</main> 
+    
+  <footer>
+    <p class="footer-bar">| &copy;2020 All Rights Reserved | Mountain Spokes |<span id="currentdate"></span></p>
+  </footer>
+
+  <script src="scripts/hamburger.js"></script>
+  <script src="scripts/currentdate.js"></script>
+  <script src="scripts/windchill.js"></script>
+    </body>
+</html>

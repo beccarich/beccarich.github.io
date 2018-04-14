@@ -1,0 +1,136 @@
+* { box-sizing: border-box;}  /* This wildcard applies to all elements ensuring a box layout model */
+
+body {
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  /* Declare the base font-family - from google font api or other */
+}
+
+header, nav, main, footer { 
+    max-width: 300px;
+}
+
+header, main, footer {
+    background-color: tan
+}
+
+header {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    
+}
+header h1 {
+    padding-top:20px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 50px;
+    color:green;
+}
+header img {
+    padding-top; 25px;
+    margin-top: 10px;
+    align-content: center;
+    align-items: center;
+
+}
+header .subheading {
+    padding-bottom: 15px;
+    color: white;
+} 
+
+
+nav {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    background-color: darkseagreen;
+}
+nav button {
+    display: flex;
+    align-items: center;
+    background: transparent;
+    
+}
+nav ul.hide {display: none;}
+nav ul li {}
+nav ul li a {}
+nav ul li.active a {}
+nav ul li a:hover {}
+
+section.forecast {
+    display:none;
+}
+
+main {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+}
+main h2 {
+    color: green;
+    border: solid;
+    border-color: black;
+    padding: 10px;
+    margin: 10px;
+}
+.franklin {
+    max-width: 100%;
+    max-height: auto;
+    align-content: center;
+    padding: 10px;
+    
+}
+
+section {
+    font-size: 20px;
+}
+
+article {
+    border-style: solid;
+    padding: 10px;
+    margin: 10px;
+    align-content: center;
+}
+
+
+footer {
+    max-width: 600px;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    margin: auto;
+}
+footer aside {}
+footer>p {
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: darkseagreen;
+}
+
+.center {
+    padding: 20px;
+}
+  align-content: center;
+}
+
+table{
+    font-family: Ubuntu, sans-serif;
+    text-align: center;
+    align-content: center;
+        }
+        
+table, th, td {
+    border: 1px solid;
+    border-color: black;
+    border-collapse: collapse;
+    padding: 8px;
+}
+th {
+    background-color:green;
+    font-size: 22px;
+}

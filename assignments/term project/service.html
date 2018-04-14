@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Service Page</title>
+  <meta name="author" content="Rebecca Richardson">
+  <meta name="description" content="Mountain Spokes">
+  <!-- external style references in the proper cascading order -->    
+  <link href="https://fonts.googleapis.com/css?family=#" rel="stylesheet">  <!-- Google API font reference -->
+  <link href="normalize.css" rel="stylesheet"> <!-- normalize useragent/browser defaults -->
+  <link href="main.css" rel="stylesheet">    <!-- default styles - small/phone views -->
+  <link href="medium.css" rel="stylesheet">  <!-- medium/tablet views -->
+  <link href="large.css" rel="stylesheet">   <!-- large/wide/desktop views --> 
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+</head>
+<body>
+  <header>
+    <figure class="logo"> 
+        <img src="images/mountainspoke.png" alt="The site logo" width="150px" height="90px" >
+    </figure>
+    <h1>Mountain Spokes</h1>
+    <div class="subheading">Owner Operated.</div>
+  </header>
+
+  <!-- site navigation use placeholder references -->
+<nav class="clearfix">
+    <button onclick="toggleNavMenu()">&#9776;</button>
+    <ul id="navMenu" class="hide">
+    	<li><a href="home.html">Home</a></li>
+    	<li><a href="adventure.html">Adventure Tours</a></li>
+    	<li><a href="event.html">Events</a></li>
+    	<li><a href="sales.html">Sales</a></li>
+    	<li class="active"><a href="service.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>		
+</nav>
+    
+<main>
+    
+    <br> 
+    <h1>Bike Services</h1>
+    <p>
+    Bronze: Adjust derailleurs, Adjust brakes, Adjust tire pressure, Wipe down frame, & Visual safety. Inspection <br><br>
+        
+    Silver: Everything from Bronze Tune, Lube pivot points, shifters, cabels and pedals, True wheels laterally and check tension, Check torque on headset, bottom bracket, stem, bars and cranks, Check suspension air pressure and inspect dampers, & Complete bike wipe down. <br><br>
+        
+    Gold: Everything from Bronze and Silver Tune, Complete cleaning of drivetrain, derailleurs and brakes, & Complete bike wash. <br><br>
+        
+    Platinum: Everything from Bronze, Silver and Gold Tune, Wheels trued laterally, radially and dish, Overhaul headset, bottom bracket and hubs, & Labor to replace cables / housing and bar tape or grips.
+    </p>
+    
+     <table>
+    <thead>
+    <tr>
+        <th colspan="3">BIKE SERVICE</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td class="highlight">Service</td>
+        <td class="highlight">Price</td>
+    </tr>
+    <tr>
+        <td>Bronze Tune</td>
+        <td>$29.99</td>
+    
+    </tr>
+    <tr>
+        <td>Silver Tune</td>
+        <td>$39.99</td>
+    
+    </tr>
+    <tr>
+        <td>Gold Tune</td>
+        <td>$79.99</td>
+    
+    </tr><tr>
+        <td>Platinum Tune</td>
+        <td>$129.99</td>
+    </tr>
+    </tbody>
+    <tfoot>
+    
+    </tfoot>
+    </table>
+</main> 
+    
+  <footer>
+    <p class="footer-bar">| &copy;2020 All Rights Reserved | Mountain Spokes |<span id="currentdate"></span></p>
+  </footer>
+
+  <script src="scripts/hamburger.js"></script>
+  <script src="scripts/currentdate.js"></script>
+  <script src="scripts/windchill.js"></script>
+    </body>
+</html>

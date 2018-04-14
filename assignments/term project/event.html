@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Event Page</title>
+  <meta name="author" content="Rebecca Richardson">
+  <meta name="description" content="Mountain Spokes">
+  <!-- external style references in the proper cascading order -->    
+  <link href="https://fonts.googleapis.com/css?family=#" rel="stylesheet">  <!-- Google API font reference -->
+  <link href="normalize.css" rel="stylesheet"> <!-- normalize useragent/browser defaults -->
+  <link href="main.css" rel="stylesheet">    <!-- default styles - small/phone views -->
+  <link href="medium.css" rel="stylesheet">  <!-- medium/tablet views -->
+  <link href="large.css" rel="stylesheet">   <!-- large/wide/desktop views --> 
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+</head>
+<body>
+  <header>
+    <figure class="logo"> 
+         <img src="images/mountainspoke.png" alt="The site logo" width="150px" height="90px" >
+    </figure>
+    <h1>Mountain Spokes</h1>
+    <div class="subheading">Owner Operated.</div>
+  </header>
+
+  <!-- site navigation use placeholder references -->
+<nav class="clearfix">
+    <button onclick="toggleNavMenu()">&#9776;</button>
+    <ul id="navMenu" class="hide">
+    	<li><a href="home.html">Home</a></li>
+    	<li><a href="adventure.html">Adventure Tours</a></li>
+    	<li class="active"><a href="event.html">Events</a></li>
+    	<li><a href="sales.html">Sales</a></li>
+    	<li><a href="service.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>		
+</nav>
+    
+<main>
+    <br>
+    <h1>Cycle the Continental Divide</h1>
+    <p>Join us for our annual event!</p>
+    <li>Date: July 5-10, 2018</li>
+    <li>Cost: $55.00</li>
+    <li>Location: Helena Ridge Trail (Beginners Welcome)</li>
+    <p>**Must bring your own supplies and/or rent them beforehand.**</p>
+    
+    <h2>Registration Form</h2>
+    <form>
+    Full Name: <input type="text" name="fullfname" pattern="[A-Za-z\s]{5,}" required> <br> 
+        <br>
+    Email: <input type="email" name="email" placeholder="examble@gmail.com" required> <br>
+        <br>
+    Phone Number:  <input type="tel" name="phone" required> <br>
+        <br>
+    Date of Birth: <input type="date" name="date" required> <br>
+        <br>
+     Home State or Country: <input type="text" name="home" pattern="[A-Za-z\s]{5,}" required> <br> 
+        <br>
+   Special Accommodations/Comments:<br> <textarea name="into" class="box"></textarea><br>
+        <br>
+    <input type="SUBMIT" class="submit">
+    
+    </form>
+    <p>*Once you have submitted this form your will recieve an email with more details.*</p>
+    <br>
+</main> 
+    
+  <footer>
+    <p class="footer-bar">| &copy;2020 All Rights Reserved | Mountain Spokes |<span id="currentdate"></span></p>
+  </footer>
+
+  <script src="scripts/currentdate.js"></script>
+    </body>
+</html>
